@@ -22,11 +22,11 @@ if !exists('g:golden_ratio_exclude_nonmodifiable')
 endif
 
 function! s:golden_ratio_width()
-  return &columns / 1.318
+  return &columns * 99 / 100
 endfunction
 
 function! s:golden_ratio_height()
-  return &lines / 1.318
+  return &lines * 99 / 100
 endfunction
 
 function! s:window_list()
